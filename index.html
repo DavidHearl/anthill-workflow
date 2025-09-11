@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<title>Document</title>
+  	<link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+	<div class="container">
+		<header>
+			<nav class="main-nav">
+				<h1 class="header-title">Anthill Workflow</h1>
+				<ul class="role-key">
+					<li>
+						<span class="key customer-support"></span>
+						Customer Support
+					</li>
+					<li>
+						<span class="key design"></span>
+						Design
+					</li>
+					<li>
+						<span class="key fitter"></span>
+						Fitter
+					</li>
+					<li>
+						<span class="key operations"></span>
+						Operations
+					</li>
+					<li>
+						<span class="key manufacturing"></span>
+						Manufacturing
+					</li>
+				</ul>
+			</nav>
+		</header>
+		
+		<div class="workflow-container">
+			<div class="stage enquiry">
+				<div class="stage-heading">
+					<h3 class="stage-title">Enquiry</h3>
+				</div>
+				<div class="enquiry-description">
+					<div class="brochure-website">Brochure requested via the website.</div>
+					<div class="appointment-website">Design appointment requested via the website.</div>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Contact Customer to Qualify</h3>
+					<p class="time">4 Days Max</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">Qualification and requirements gathering.</p>
+					<label>
+						<input type="checkbox"/>
+						1st contact attempt
+					</label>
+					<label>
+						<input type="checkbox"/>
+						2nd contact attempt
+					</label>
+					<label>
+						<input type="checkbox"/>
+						3rd contact attempt
+					</label>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Book a Design Appointment</h3>
+					<p class="time">4 Days Max</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">Schedule a design consultation with the customer.</p>
+					<label>
+						<input type="checkbox"/>
+						1st appointment attempt
+					</label>
+					<label>
+						<input type="checkbox"/>
+						2nd appointment attempt
+					</label>
+					<label>
+						<input type="checkbox"/>
+						3rd appointment attempt
+					</label>
+				</div>
+			</div>
+
+			<div class="stage design">
+				<div class="stage-heading">
+					<h3 class="stage-title">Record Design Requirements</h3>
+					<p class="time">3 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">Designer records and submits requirements in Anthill.</p>
+				</div>
+			</div>
+			
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Generate Contract</h3>
+					<p class="time">1 Day</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">Create a formal contract based on the approved requirements.</p>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Take Deposit</h3>
+					<p class="time">3 Days</p>
+				</div>
+				<div class="stage-description">
+					<label>
+						<input type="checkbox"/>
+						1st deposit request
+					</label>
+					<label>
+						<input type="checkbox"/>
+						2nd deposit request
+					</label>
+											<label>
+						<input type="checkbox"/>
+						Send confirmation email
+					</label>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Confirm Contract Signed</h3>
+					<p class="time">2 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">Verify the signed contract is received before progressing.</p>
+				</div>
+			</div>
+
+			<div class="stage design">
+				<div class="stage-heading">
+					<h3 class="stage-title">Upload Documents</h3>
+					<p class="time">2 Days</p>
+				</div>
+				<div class="stage-description">
+					<label>
+						<input type="checkbox"/>
+						Images of space
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Survey
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Presentation and any other relevant documentation or notes uploaded to Anthill. 
+						Check price in Anthill matches CAD and contract.
+					</label>
+				</div>
+			</div>
+
+			<div class="stage operations">
+				<div class="stage-heading">
+					<h3 class="stage-title">Final Design Checked and Handover</h3>
+					<p class="time">2 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Confirm any design changes and update the VR link if necessary.
+					</p>
+					<label>
+						<input type="checkbox"/>
+						CAD sign-off
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Customer informed of changes
+					</label>
+				</div>
+			</div>
+
+			<div class="stage manufacturing">
+				<div class="stage-heading">
+					<h3 class="stage-title">Passed for Production (PFP)</h3>
+					<p class="time">3 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						
+					</p>
+					<label>
+						<input type="checkbox"/>
+						Approve drawings
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Approve BOM
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Annotate drawings if required
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Provide fit-from date
+					</label>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Arrange Install Date & Take Second Payment</h3>
+					<p class="time">3 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Using the First Fit Date in Sales Details, arrange installation. 
+						Check the Valid Until date—the FFD is no longer valid after this date.
+					</p>
+					<label>
+						<input type="checkbox"/>
+						Attempt 1
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Attempt 2
+					</label>
+				</div>
+			</div>
+
+			<div class="stage operations">
+				<div class="stage-heading">
+					<h3 class="stage-title">Place Order or Allocate from Stock</h3>
+					<p class="time">6 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Sales and Design order items from supplier.
+						Enter the Goods Due In date for the item with the longest lead time.
+					</p>
+				</div>
+			</div>
+
+			<div class="stage manufacturing">
+				<div class="stage-heading">
+					<h3 class="stage-title">Manufacture Product</h3>
+					<p class="time">Due - 6 Days Before Fit</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Manufacture and prepare all components for installation.
+					</p>
+					<label>
+						<input type="checkbox"/>
+						Doors
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Interiors
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Miscellaneous
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Organise delivery
+					</label>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Pre-Fit Call to Customer</h3>
+					<p class="time">Due - 2 Days Before Fit</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Call 1–2 days prior to confirm space is cleared and parking is available. 
+					</p>
+				</div>
+			</div>
+
+			<div class="stage fitter">
+				<div class="stage-heading">
+					<h3 class="stage-title">Upload Fit Photos</h3>
+					<p class="time">Due - Final Day of Fit</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Upload “before” and “after” photographs.
+					</p>
+				</div>
+			</div>
+
+			<div class="stage fitter">
+				<div class="stage-heading">
+					<h3 class="stage-title">Complete Fitter Report</h3>
+					<p class="time">Due - Final Day of Fit</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Submit a detailed report, noting any issues resolved and additional requirements. 
+					</p>
+				</div>
+			</div>
+
+			<div class="stage manufacturing">
+				<div class="stage-heading">
+					<h3 class="stage-title">Complete RFT Details</h3>
+					<p class="time">Due - Final Day of Fit</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">
+						Call the customer to confirm satisfaction.
+					</p>
+					<p class="description-text">
+						Arrange remedial work if required.
+					</p>
+				</div>
+			</div>
+
+			<div class="stage customer-support">
+				<div class="stage-heading">
+					<h3 class="stage-title">Take Final Balance and Issue Guarantee</h3>
+					<p class="time">Due - Final Day of Fit</p>
+				</div>
+				<div class="stage-description">
+					<label>
+						<input type="checkbox"/>
+						Issue guarantee
+					</label>
+					<label>
+						<input type="checkbox"/>
+						Take final balance
+					</label>
+				</div>
+			</div>
+
+			<div class="stage design">
+				<div class="stage-heading">
+					<h3 class="stage-title">Complete Sale</h3>
+					<p class="time">6 Days</p>
+				</div>
+				<div class="stage-description">
+					<p class="description-text">An opportunity to undertake additional work once the sale has been completed with payment</p>
+					<ul class="stage-bulletpoints">
+						<li>Designer follows up regarding potential additional work.</li>
+						<li>Take Marketing photos</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
