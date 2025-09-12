@@ -73,7 +73,7 @@ header {
 .workflow-container {
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
+	gap: 8px;
 	margin: 16px;
 	margin-top: 88px;
 	width: 100%;
@@ -146,18 +146,10 @@ label {
 	color: rgb(76, 76, 76);
 }
 
-label {
-	margin-top: 8px;
-}
-
-.stage-description {
-	display: flex;
-	flex-direction: column;
-}
-
+.stage-description,
 .enquiry-description {
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 }
 
 .brochure-website,
@@ -172,4 +164,74 @@ label {
 	gap: 3px;
 	display: flex;
 	flex-direction: column;
+}
+
+.timestamp {
+	font-size: 0.9rem;
+	font-style: italic;
+	color: gray;
+}
+
+.description-checkbox {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+hr {
+	margin: 8px 0;
+	color: white;
+}
+
+label > input {
+	margin-right: 2px;
+}
+
+.arrow-link {
+	text-align: center;
+	height: 40px;
+}
+
+form {
+	width: 100%;
+}
+
+.decision-stage {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	box-sizing: border-box;
+	gap: 16px;
+}
+
+.mini-stage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 24px 32px;
+	border-radius: 16px;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+}
+
+.green-traffic {
+	border: 1px solid rgb(33, 144, 41);
+	background: rgb(218, 255, 218);
+}
+
+.orange-traffic {
+	border: 1px solid rgb(255, 128, 65);
+	background: rgb(255, 238, 218);
+}
+
+.red-traffic {
+	border: 1px solid rgb(198, 8, 8);
+	background: rgb(255, 220, 220);
+}
+
+.arrow-group {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
