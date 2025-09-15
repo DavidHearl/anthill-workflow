@@ -235,3 +235,18 @@ form {
 	flex-direction: row;
 	justify-content: space-around;
 }
+
+.view-report-button {
+	margin-top: 8px;
+	border-radius: 8px;
+	padding: 6px 12px;
+	background-color: orange;
+	transition: background-color 0.2s, box-shadow 0.2s;
+	border: 1px solid #714c0a;
+	cursor: pointer;
+}
+
+.view-report-button:hover {
+	background-color: #ffb84d;
+	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
