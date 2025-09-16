@@ -24,7 +24,7 @@ header {
     width: 100%;
     background: #fff;
     z-index: 100;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
 .main-nav {
@@ -98,7 +98,12 @@ header {
 
 .customer-support {
 	border: 2px solid rgb(255, 228, 74);
-	background: rgb(254, 255, 245);
+	background: rgb(254, 255, 249);
+}
+
+.customer-support-action {
+	border: 2px dashed rgb(255, 228, 74);
+	background: rgb(254, 255, 249);
 }
 
 .fitter {
@@ -249,4 +254,23 @@ form {
 .view-report-button:hover {
 	background-color: #ffb84d;
 	box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.separator-with-text {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	margin: 32px 0;
+}
+.separator-with-text::before,
+.separator-with-text::after {
+	content: "";
+	flex: 1;
+	border-bottom: 2px solid #bbb;
+}
+.separator-with-text span {
+	margin: 0 16px;
+	font-weight: bold;
+	color: #555;
+	white-space: nowrap;
 }
